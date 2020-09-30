@@ -16,6 +16,9 @@ class ViewController: UIViewController {
         
     }
 
+    
+    @IBOutlet weak var finalLabel: UILabel!
+    
     @IBAction func buttonPressed() {
         whatIsColor += 1
         print(whatIsColor )
@@ -36,7 +39,8 @@ class ViewController: UIViewController {
             view.backgroundColor = .purple
         default:
             view.backgroundColor = .black
-            
+            let finalText = "Хватит нажимать"
+            finalLabel.text = finalText
         }
         
         }
