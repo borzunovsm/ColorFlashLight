@@ -16,12 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lze-AS-W0l">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <connections>
-                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="AdW-uJ-iYC"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="drm-Pe-yMi">
                                 <rect key="frame" x="20" y="44" width="374" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -32,16 +26,6 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Fh-ii-3zd"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7EP-hD-59A"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GBI-lt-5SY"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Wow-Lo-SUh"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bz7-el-ZzD"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dLD-cK-l2G"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lAr-jy-tJ7"/>
-                            <constraint firstItem="Lze-AS-W0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xU1-Pl-hp8"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="finalLabel" destination="drm-Pe-yMi" id="GVV-RX-S9z"/>

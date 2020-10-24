@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var finalLabel: UILabel!
     
-    @IBAction func buttonPressed() {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         whatIsColor += 1
         print(whatIsColor )
         switch whatIsColor {
@@ -46,8 +46,8 @@ class ViewController: UIViewController {
             let finalText = "Хватит нажимать"
             finalLabel.text = finalText
         }
-        
-        }
+    }
+    
     }
     
 
