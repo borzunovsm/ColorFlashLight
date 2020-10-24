@@ -10,6 +10,10 @@ import UIKit
 class ViewController: UIViewController {
    var  whatIsColor = 0
     
+    override var prefersStatusBarHidden: Bool{
+        return  true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
