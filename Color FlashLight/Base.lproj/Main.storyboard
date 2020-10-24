@@ -34,9 +34,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Lze-AS-W0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4Fh-ii-3zd"/>
+                            <constraint firstItem="Lze-AS-W0l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7EP-hD-59A"/>
+                            <constraint firstItem="Lze-AS-W0l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GBI-lt-5SY"/>
                             <constraint firstItem="Lze-AS-W0l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Wow-Lo-SUh"/>
                             <constraint firstItem="Lze-AS-W0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bz7-el-ZzD"/>
                             <constraint firstItem="Lze-AS-W0l" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dLD-cK-l2G"/>
+                            <constraint firstItem="Lze-AS-W0l" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lAr-jy-tJ7"/>
+                            <constraint firstItem="Lze-AS-W0l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="xU1-Pl-hp8"/>
                         </constraints>
                     </view>
                     <connections>
