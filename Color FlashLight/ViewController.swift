@@ -8,7 +8,9 @@
 import UIKit
 
 class ViewController: UIViewController {
-   var  whatIsColor = 0
+    
+    /// Вводим переменную для выбора цвета
+    var  whatIsColor = 0
     
     override var prefersStatusBarHidden: Bool{
         return  true
@@ -16,6 +18,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /// базовый цвет фонарика - белый
         view.backgroundColor = .white
         
     }
