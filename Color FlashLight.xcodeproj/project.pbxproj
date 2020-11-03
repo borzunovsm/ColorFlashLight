@@ -24,6 +24,8 @@
 		B42FFF6F2524C0CC00802F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42FFF722524C0CC00802F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42FFF742524C0CC00802F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F49E082551B3BF000CB802 /* Снимок экрана 2020-11-03 в 18.47.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-11-03 в 18.47.48.png"; sourceTree = "<group>"; };
+		B4F49E092551B3BF000CB802 /* Снимок экрана 2020-11-03 в 18.48.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2020-11-03 в 18.48.24.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,18 @@
 				B42FFF6F2524C0CC00802F59 /* Assets.xcassets */,
 				B42FFF712524C0CC00802F59 /* LaunchScreen.storyboard */,
 				B42FFF742524C0CC00802F59 /* Info.plist */,
+				B4F49E072551B3BF000CB802 /* ScreenShots */,
 			);
 			path = "Color FlashLight";
+			sourceTree = "<group>";
+		};
+		B4F49E072551B3BF000CB802 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				B4F49E092551B3BF000CB802 /* Снимок экрана 2020-11-03 в 18.48.24.png */,
+				B4F49E082551B3BF000CB802 /* Снимок экрана 2020-11-03 в 18.47.48.png */,
+			);
+			path = ScreenShots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
